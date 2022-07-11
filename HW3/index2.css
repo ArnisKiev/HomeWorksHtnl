@@ -1,0 +1,29 @@
+#menu{
+    background-color: rgb(146, 144, 144);
+    width: 200px;
+    list-style: none;
+    padding: 0;
+}
+
+.item{
+   
+    text-align: start;
+    vertical-align:middle;
+    display: flex;
+    justify-content: start; 
+    align-items: center;  
+    
+}
+
+.item img{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.item span{
+
+    display: block;
+}
+.item:hover{
+    background-color: rgb(88, 84, 84);
+}

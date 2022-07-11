@@ -1,0 +1,36 @@
+body{
+    background-color: 	#F5F5F5;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #483D8B;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tableContent{
+
+    color: gray;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+pre{  
+   
+    font-size: 12px;
+    margin-top: 40px;
+    color: black;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+p{
+    color: black;
+    font-weight: 200;
+    margin-top: 40px;
+    font-size: 10;
+}

@@ -1,0 +1,227 @@
+
+body{
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+
+.circle{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(17, 175, 17);
+  
+}
+
+.card-overdue{
+    background-color:rgb(255, 109, 109) !important;
+    color: white ;
+    border: none;
+}
+
+.card-body{
+   padding: 0;
+}
+
+.my-card{
+    background-color: rgb(251, 251, 251);
+    display: block;
+    width: 30%;
+    padding: 15px 15px;
+    border: 1px solid silver;
+    
+}
+
+
+.card-reviewed{
+    background-color: rgb(17, 175, 17);
+    color: white;
+}
+
+
+.file-label-reviewed::before{
+
+
+    margin-right: 10px;
+    display: block;
+    content: " ";
+
+    width: 20px;
+    height: 20px;
+    background-image: url("img/upload.png");
+    background-size: 20px;
+
+}
+
+.file-label-reviewed{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: 1px solid white;
+    background-color:  rgb(17, 175, 17);
+    color: white;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.grade{
+    display: inline-block;
+    background-color:  rgb(11, 110, 11);
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+
+}
+
+.btn-reset::before{
+    margin-right: 10px;
+    display: block;
+    content: " ";
+
+    width: 20px;
+    height: 20px;
+    background-image: url("img/reset.png");
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.btn-reset{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    background-color:  rgb(17, 175, 17);
+    color: white;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+
+
+.card-title{
+    font-weight: 500;
+    font-size: 24px;
+    
+}
+.card-text{
+    font-size: 24px;
+}
+
+.my-file{
+    appearance: none;
+    position: absolute;
+    
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+
+}
+
+.upload-icon{
+    width: 40px;
+    height: 40px;
+    background-image: url("img/upload.png");
+    background-size: 40px;
+}
+
+.card-review{
+    background-color: rgb(65, 65, 255);
+    color: white;
+}
+
+
+.file-label-review::before{
+
+
+    margin-right: 10px;
+    display: block;
+    content: " ";
+
+    width: 20px;
+    height: 20px;
+    background-image: url("img/upload.png");
+    background-size: 20px;
+
+}
+
+.file-label-review{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(65, 65, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.btn-remove-review::before{
+    margin-right: 10px;
+    display: block;
+    content: " ";
+
+    width: 20px;
+    height: 20px;
+    background-image: url("img/garbage_can.png");
+    background-size: 16px auto;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.btn-remove-review{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(65, 65, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+}
+
+.file-label{
+  
+    margin: 0;
+    position: relative;
+    width: 95%;
+    display: inline-flex;
+    justify-content: space-between;
+    border: 1px solid  rgb(234, 233, 233);
+    border-radius: 5px;
+    padding: 5px 10px;
+    align-items: center;
+    color: silver;
+    font-size: 24px;
+    background-color: rgb(251, 251, 251);
+}
+
+.file-label::after{
+
+    position: absolute;
+    content: "Browse";
+    display: block;
+    color: black;
+    font-weight: 200;
+    width: 30%;
+
+    border-radius: 0 5px 5px 0;
+    left: 70%;
+    padding: 6px;
+    background-color: rgb(234, 233, 233);
+    text-align: center;
+}
+

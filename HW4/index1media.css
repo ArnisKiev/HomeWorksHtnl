@@ -1,0 +1,62 @@
+
+
+@media  screen and (max-width:600px){
+
+    body{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    #content{
+        margin-top: 20px;
+        margin: 20px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .title{
+        width: 75%;
+        font-size: 36px;
+       
+    }
+
+    .info{
+        
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+   
+    .info .pair .item{
+        margin:10px;
+    }
+
+    .references li{
+        font-size: 24px;
+
+    }
+
+    .info .itemPhoto img{
+        width: 100px;
+        height: 100px;
+    }
+    .itemPhoto{
+        margin-right: 20px;
+       
+    }
+   
+   .info .pair{
+       flex-direction: column;
+      
+       
+   }
+    .up-info, .down-info{
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    
+}

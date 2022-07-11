@@ -1,0 +1,26 @@
+
+
+dl{
+    margin: 20px;
+    width: 30vw;
+
+}
+
+dt{
+    margin: 10px;
+    font-size: 20px;
+}
+
+li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+
+.Synonyms{
+    color: rgb(77, 31, 169);
+}
+.Example{
+    color: rgb(165, 162, 162);
+}

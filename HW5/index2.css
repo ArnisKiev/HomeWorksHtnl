@@ -1,0 +1,268 @@
+
+
+.textarea{
+
+    resize: none;
+    outline: none;
+    width: 45%;
+    height: 10vh;
+    padding: 20px 30px;
+    border: 1px solid rgb(169, 168, 168);
+}
+
+.textarea::placeholder{
+    color: rgb(169, 168, 168);
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+.active{
+
+  
+
+    background-color: green;
+   
+}
+
+.hover{
+ 
+    background-color: rgb(11, 118, 11);
+   
+
+}
+
+.danger{
+
+    background-color: red;
+}
+.danger-hover{
+    background-color: rgb(174, 18, 18);
+
+}
+.disabled{
+
+    background-color: rgb(169, 168, 168);
+}
+.plus{
+    padding: 0;
+    
+    background-color: green;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+}
+.minus{
+  
+    padding: 0;
+    background-color: red;
+    border-radius:50px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    
+   
+
+
+
+}
+
+.radio{
+    
+    position: absolute;
+    appearance: none;
+
+}
+.label-radio{
+
+
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    position: relative;
+  
+
+}
+.radio:checked + .label-radio::after{
+
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    background-color: green;
+    display: block;
+ 
+    left: 2px;
+
+}
+
+
+
+.label-radio::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid green;
+   
+    margin-right: 5px;
+    
+
+}
+
+
+
+
+body{
+    margin: 30px;
+}
+
+.input-text{
+    margin-right: 10px;
+    padding: 15px 5px 10px 25px;
+    color: rgb(136, 135, 135);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(136,135,135);
+}
+
+.input-text::after{
+    display: block;
+    content: "Lox";
+    width: 10px;
+    height: 10px;
+   
+}
+
+.invalid-input-text{
+    padding-right: 35px;
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255,0,0);
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/31/18/31/cancel-1294426_1280.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 97% 45%;
+
+}
+
+.invalid-input-text::placeholder{
+    color: red !important;
+}
+
+.valid-input-text{
+    padding-right: 35px;
+    color: rgb(37, 180, 77);
+    border: 2px solid rgb(37, 180, 77);
+    background-image: url("https://t4.ftcdn.net/jpg/01/38/68/39/360_F_138683961_ncOVcRh8Md9wLk3T4mSjffNxiUdi6T7k.webp");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 98% 45%;
+  
+
+}
+.valid-input-text::placeholder{
+    color: rgb(37, 180, 77) !important;
+}
+
+
+
+
+
+.input-text::placeholder{
+    color: rgb(136, 135, 135);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkbox{
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+}
+.label-checkbox{
+
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+    
+    
+}
+
+
+.checkbox:checked + .label-checkbox::after{
+    background-color: rgba(15, 200,15,1);
+    left: 4px;
+   
+}
+.checkbox:checked + .label-checkbox::before{
+
+    border: 1px solid rgba(15, 200,15,1);
+}
+
+  .label-checkbox::after{
+
+    position: absolute;
+    left: 14px;
+    float: left;
+    display: inline;
+    border-radius: 2px;
+    content: "";
+    width: 16px;
+    height: 12px;
+    z-index: 0;
+    background-color: rgb(255, 0, 0);
+   
+
+  }
+
+
+.label-checkbox::before{
+    
+    display: block;
+    content: "";
+    margin-right: 5px;
+    width: 32px;
+    height: 16px;
+    border:1px solid rgb(255, 0, 0);
+    border-radius: 2px;
+    
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 2px;
+}

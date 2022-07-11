@@ -1,0 +1,110 @@
+#card{
+    background-color: rgb(117, 178, 158);
+    width: 50%;
+    margin: auto;
+    background-image: url("img1/moon_flag.png");
+    background-size:  50% 50%;
+    background-position: bottom -20% right -30%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+
+    
+}
+
+
+.card-title{
+
+
+    
+    padding:  0px 40px;
+    margin-left:-5%;
+    margin-top: 4%;
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: rgb(210, 104, 12);
+ 
+   
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.card-title span{
+    vertical-align: middle;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+input[type="text"]:focus,:active{
+    border: none;
+    outline: none;
+}
+
+label{
+    margin-top: 10px;
+    display: block;
+    font-size: 16px;
+    color: rgb(82, 123, 109);
+}
+
+input[type="text"], input[type="password"]{
+
+
+    color: rgb(82, 123, 109);
+    margin-top: 5px;
+    background-color: rgb(136, 207, 183);
+    border: none;
+    font-size: 20px;
+    height: auto;
+    width: 100%;
+    padding: 7px 15px;
+ 
+}
+
+#card-info{
+    
+    margin-left: 25px ;
+   margin-top: 20px;
+    margin-bottom: 40px;
+    width: 50%;
+    
+    
+
+}
+
+.cvv-date{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.cvv-date .item{
+    
+    
+    display: block;
+    width: 20%;
+}
+.cvv-date .item label{
+    
+    white-space: nowrap;
+    
+}
+
+
+.cvv-date .item input{
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+
+body{
+    padding-left:20px ;
+}
+
+
+#photo-field{
+
+    float: right;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.paragraph{
+    width: 70%;
+    margin-bottom: 25px;
+    font-size: 24px;
+
+    
+}
+
+.photo{
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(61, 61, 163);  
+    border-radius: 10px;
+    text-align: end;
+    padding-bottom: 15px;
+   
+}
+
+.photo p{
+    text-align: end;
+    margin: 0;
+    margin-right: 20px;
+    color: white;
+    
+}
+
+.photo img{
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+
+}

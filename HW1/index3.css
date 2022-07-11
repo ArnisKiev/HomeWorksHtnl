@@ -1,0 +1,25 @@
+body{
+    background-color: 	#F5F5F5;
+}
+
+.dot-underline{
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    display: inline-block;
+    height: 1em;
+    line-height: 1.05em;
+}
+.codeField{
+    
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(184, 184, 184, 0.247);
+    color: red;
+    font-size: 14px;
+}
+.tag{
+    color: rgb(5, 112, 126);
+    background-color: rgba(184, 194, 184, 0.3);
+    margin-right: 5px;
+    padding: 5px;
+}

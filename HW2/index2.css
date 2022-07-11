@@ -1,0 +1,63 @@
+
+
+#list{
+    
+    list-style: none;
+    text-align: start;
+    margin: auto;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.NotDone{
+    background-color: inherit;
+}
+
+.Done{
+   
+    background-color: silver !important;
+    
+}
+li.Done span{
+    text-decoration: line-through;
+}
+
+
+
+
+#list li.Done::before{
+    content: url("checked_16.png");
+    padding: 0 20px;
+}
+
+#list li.NotDone::before{
+
+    content: url("unchecked_16.png");
+    padding: 0 20px;
+}
+
+
+
+#list li::after{
+    content:'\2718';
+    color: red; 
+    padding: 0 20px;
+    text-decoration-line: none !important;
+    
+}
+
+
+#list li{
+
+    padding: 5px;
+    font-size: 24px;
+    background-color: rgb(10, 136, 190);
+}
+
+#list li:nth-child(even){
+    background-color: rgb(23, 170, 238);
+}
+

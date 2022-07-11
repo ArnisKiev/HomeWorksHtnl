@@ -1,0 +1,35 @@
+
+#list{
+    background-color: rgb(234, 97, 97);
+    margin: 20px;
+    display: block;
+    padding: 15px;
+    list-style-type: none;
+    counter-reset: count 0;
+    font-size: 24px;
+}
+
+#list li{
+    height: auto;
+    line-height: auto;
+    color: rgb(218, 218, 218);
+    background-color: rgb(194, 42, 42);
+    margin: 10px;
+}
+
+span{
+    background-color: rgb(125, 28, 28);
+    display: inline-block;
+    height: auto;
+    line-height: auto;
+    padding: 5px 20px;
+}
+
+#list li::before{
+    counter-increment: count;
+    content: counter(count) ".";
+    display: inline;
+    padding: 10px 10px;
+
+    
+}

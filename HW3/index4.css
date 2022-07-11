@@ -1,0 +1,59 @@
+
+
+ul{
+    list-style: none;
+    color: rgb(219, 219, 219);
+}
+
+li:hover{
+    color: rgb(134, 132, 132);
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(36, 36, 124);
+    padding: 10px;
+    
+}
+hr{
+    width: 95%;
+    color: rgb(219, 219, 219);
+}
+#content-footer{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+span{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(219, 219, 219);
+}
+
+.icon-field{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 120px;
+}
+.icon-field .photo{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-size:100% ;
+    background-color: rgb(158, 158, 158);
+    border-radius: 7px;
+    background-blend-mode: luminosity;
+
+}
+
+.icon-field .photo:hover{
+    background-blend-mode: normal;
+    cursor: pointer;
+}
+

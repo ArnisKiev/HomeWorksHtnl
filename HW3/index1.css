@@ -1,0 +1,38 @@
+#fruits-fiels{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80vw;
+    justify-content:  center;
+   
+    
+    
+}
+
+.card{
+
+    
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 120px;
+    padding: 15px;
+    margin: 10px;
+   
+
+
+}
+
+
+
+.card .photo img{
+    max-width: 100%;
+    text-align: center;
+}
+.card .title{
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+

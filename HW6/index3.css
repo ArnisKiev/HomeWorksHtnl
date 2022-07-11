@@ -1,0 +1,182 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(13, 174, 171);
+ 
+    display: inline-flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+header{
+    background-color: rgb(10, 121, 120);
+    color: white;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+.task{
+    padding: 20px;
+    background-color: white;
+    width: 80%;
+  
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.task-extra{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    align-items: center;
+
+}
+
+.attach{
+
+    display: inline;
+   
+    align-items: flex-end;
+    display: flex;
+   
+}
+
+.attach::before{
+   
+    content: " ";
+    display: block;
+    margin-right:5px ;
+    width: 20px;
+    height: 20px;
+    background-image: url("img3/attach_26.png");
+    background-size: 100%;
+
+}
+
+.justify{
+
+    display: inline;
+   
+    align-items: center;
+    display: flex;
+   
+}
+
+.justify::before{
+   
+    content: " ";
+    display: block;
+    margin-right:5px ;
+    width: 20px;
+    height: 20px;
+    background-image: url("img3/justify_26.png");
+    background-size: 100%;
+
+}
+
+.checkbox{
+
+    display: inline;
+   
+    align-items: center;
+    display: flex;
+   
+}
+
+h3{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.checkbox::before{
+   
+    content: " ";
+    display: block;
+    margin-right:5px ;
+    width: 20px;
+    height: 20px;
+    background-image: url("img3/checkbox_26.png");
+    background-size: 100%;
+
+}
+
+.photo{
+    text-align: end;
+    grid-column: 5;
+}
+.photo img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+.comments{
+
+    display: inline;
+   
+    align-items: center;
+    display: flex;
+   
+}
+
+.comments::before{
+   
+    content: " ";
+    display: block;
+    margin-right:5px ;
+    width: 20px;
+    height: 20px;
+    background-image: url("img3/comments_26.png");
+    background-size: 100%;
+
+}
+
+
+
+
+
+.board{
+    margin: 25px;
+    width: 400px;
+    margin-top: 10vh;
+    
+    height: 80vh;
+
+    background-color: rgb(201, 201, 201);
+
+    overflow-y:auto;
+    
+}
+
+.board::-webkit-scrollbar{
+    width: 7px;
+   
+    
+}
+
+.board::-webkit-scrollbar-track{
+
+    background: none;
+
+}
+.board::-webkit-scrollbar-thumb{
+    background: rgb(134, 134, 134);
+    border-radius: 5px;
+ 
+
+}

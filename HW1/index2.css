@@ -1,0 +1,30 @@
+body{
+    background-color: 	#F5F5F5;
+}
+
+.mainField{
+
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.card{
+    text-align: center;
+    width: 100px;
+    max-width: 100px;
+    padding: 10px 0;
+    display: inline-block;
+    font-size: 50px;
+    margin: 5px;
+    background-color: silver;
+}
+
+.redCard{
+    color: red;
+    
+}
+.blackCard{
+    
+   color: black;
+}
+

@@ -1,0 +1,14 @@
+.set-nav{
+    width: 90%;
+    background-color: rgb(166, 213, 254);
+    border-radius: 10px;
+    color: rgb(43, 121, 189);
+    font-size: 20px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.photo{
+    display: block;
+    width: 100%;
+}
